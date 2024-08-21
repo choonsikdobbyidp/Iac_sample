@@ -235,3 +235,6 @@ kubectl apply -f /home/ubuntu/nginx/nginx-deployment.yaml -n test
 #k8s create service
 kubectl expose deployment nginx-deployment -n test --type NodePort
 
+#check k8s nodes
+kubectl get nodes
+
